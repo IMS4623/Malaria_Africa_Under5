@@ -1,0 +1,2 @@
+target,model,split_mode,split_info,train_size,test_size,test_year_start,test_size_fraction,svr_kernel,svr_C,svr_epsilon,n_bootstrap,r2,mae,mse,rmse,used_weight_column,excluded_leakage_columns,extra_excluded_columns
+mortality_under5_malaria,Weighted_SVR_RBF_YeoJohnson_BootstrapCI,random,"random split, test_size=0.3",764,328,,0.3,rbf,10.0,0.1,50,0.9692892808402963,24.934313478485752,1943.87106406196,44.089353182621764,W,,
